@@ -1,0 +1,66 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@300..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@300..700&family=Playwrite+MX+Guides&display=swap');
+/*Définir les styles pour les balises ==> pas de # ni de .*/
+h1,h2,h3,h4
+{
+    font-family: 'Fredoka', sans-serif; 
+}
+ 
+/*Définir le style de la balise img 
+se trouvant dans une balise qui possède la class Logo*/
+.Logo{
+  display: flex;
+    align-items: center; /* Aligne parfaitement le logo et le texte au centre vertical */
+    gap: 10px; /* Espace entre le logo et le texte */
+}
+.Logo img
+{
+  display: inline;
+  width: 120px;
+}
+.Logo h1
+{
+  display: inline;
+  vertical-align:bottom;
+}
+
+.Presentation-box
+{
+    text-align: center;
+}
+
+.Presentation-box p{
+   
+    font-family: 'Playwrite MX Guides', sans-serif; 
+ 
+}
+.Presentation-box h3
+{
+    font-family: 'Fredoka', sans-serif; 
+    font-size:3rem;
+    letter-spacing: 2px; 
+}
+ 
+.Adopt-typo
+{
+  font-family: 'Fredoka', sans-serif;
+  color:#4CC9F0;
+  font-size:3rem;
+  letter-spacing: 2px;
+}
+.A-typo
+{
+    font-family: 'Fredoka', sans-serif;
+    font-size:1.5rem;
+    color:#720987;
+    padding: 1rem;
+}
+.Monster-typo
+{
+  font-family: 'Bangers',system-ui, sans-serif;
+  color:#F72585;
+  font-size:4rem;
+  letter-spacing: 3px; 
+}
+
+ 
