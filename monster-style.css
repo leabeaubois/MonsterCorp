@@ -101,19 +101,18 @@ nav {
 
         border-bottom: 5px solid var(--ambre-dark);
         transition: all 0.05s;
-                    -webkit-transition: all 0.05s;
+        -webkit-transition: all 0.05s;
     }
 
     & li:hover,
-     li:focus,
-     li:has(a:hover),
-     li:has(a:focus)
-     {
+    li:focus,
+    li:has(a:hover),
+    li:has(a:focus) {
         background-color: var(--violet-sombre);
         color: var(--ambre1);
         text-decoration: none;
-        transform:  translate(2px, 1px);
-                    -webkit-transform: translate(2px, 1px);
+        transform: translate(2px, 1px);
+        -webkit-transform: translate(2px, 1px);
         border: solid 4px transparent;
     }
 
@@ -198,11 +197,11 @@ h3 {
 
 /* Videos */
 
-.video-box{
+.video-box {
     position: relative;
-    display:flex;
+    display: flex;
     justify-content: center;
-      padding: 0;
+    padding: 0;
 }
 
 video {
@@ -241,14 +240,15 @@ footer {
         display: flex;
         list-style: none;
     }
-    & ul.footer-menu-elements{
-        display: block;
-            padding: 0;
 
-            & li {
-                
+    & ul.footer-menu-elements {
+        display: block;
+        padding: 0;
+
+        & li {
+
             font-size: 0.7em;
-            }
+        }
     }
 
 
